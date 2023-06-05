@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/wesleybertipaglia/LinksHub/issues"
   },
-  "homepage": "https://github.com/wesleybertipaglia/LinksHub#readme",
   "dependencies": {
     "@phosphor-icons/react": "^2.0.9",
     "@testing-library/jest-dom": "^5.16.5",
