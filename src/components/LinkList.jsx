@@ -40,6 +40,7 @@ export default function LinkList() {
                 {
                     links.map((item) => (
                         <Link 
+                            key={item.title}
                             title={item.title} 
                             link={item.link} 
                             icon={item.icon} 
