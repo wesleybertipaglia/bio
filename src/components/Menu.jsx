@@ -1,5 +1,7 @@
+import ShareList from "./ShareList";
+
 export default function Menu() {
     return(
-        "Menu"
+        <ShareList />
     );
 }

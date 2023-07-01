@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SealCheck, ShareNetwork } from "@phosphor-icons/react";
+import { DotsThree, SealCheck } from "@phosphor-icons/react";
 import user from "./User";
 import Modal from "./Modal";
 import Menu from"./Menu";
@@ -30,7 +30,8 @@ export default function Header() {
                     </div>
                     <div>
                         <button className="p-2 bg-zinc-900 shadow-sm rounded-full hover:shadow-2xl transition-all" onClick={toggleModal}>
-                            <ShareNetwork size={24} weight={"fill"} className="text-white" />
+                            
+                            <DotsThree size={24} className="text-white" />
                         </button>
                     </div>
                 </div>
