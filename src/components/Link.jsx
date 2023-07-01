@@ -7,7 +7,7 @@ export default function Link(props) {
         <div className={`${props.boxStyle} rounded transition-all`}>
             <a href={props.link} className={`${props.linkStyle} flex gap-4 justify-between items-center`} target="_blank" rel="noreferrer">
                 <span className={`${props.iconBoxStyle} flex justify-center items-center rounded aspect-square`}>
-                    <IconComponent size={props.iconSize} weight="fill" className={`${props.iconStyle}`} />
+                    <IconComponent size={props.iconSize} weight={props.iconWeight} className={`${props.iconStyle}`} />
                     <img src={props.imgUrl} alt={props.imgAlt} className={`${props.imgStyle}`} />
                 </span>
                 

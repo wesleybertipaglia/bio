@@ -15,14 +15,14 @@ export default function LinkList() {
             title: "Portfolio",
             link: "https://wesleybertipaglia.github.io/portfolio/",
             icon: Cards,
-            bg: "bg-cyan-500",
+            bg: "bg-violet-500",
             color: "text-white"
         },
         {
             title: "LinkedIn",
             link: "https://www.linkedin.com/in/wesley-bertipaglia/",
             icon: LinkedinLogo,
-            bg: "bg-indigo-500",
+            bg: "bg-blue-600",
             color: "text-white"
         },
         {
@@ -44,6 +44,7 @@ export default function LinkList() {
                             title={item.title} 
                             link={item.link} 
                             icon={item.icon} 
+                            iconWeight="fill"
                             iconSize="24"
                             iconBoxStyle={`h-12 ${item.color} ${item.bg}`}
                             boxStyle="bg-white p-1 shadow hover:scale-105"
