@@ -1,6 +1,6 @@
-# Links Hub
+# Bio Website
 
-Welcome to Links Hub repository! This repository contains the source code, React components, styles using Tailwind CSS, and tests using Jest for my personal hub of links. Feel free to explore, contribute, and use this template for your own link hub.
+Welcome to Bio repository! This repository contains the source code, React components, styles using Tailwind CSS, and tests using Jest. Feel free to explore, contribute, and use this template for your own bio website.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to Links Hub repository! This repository contains the source code, React
 
 ## Introduction
 
-The Link Hub is built with React for dynamic UI components, Tailwind CSS for styling, and Jest for testing. This repository is organized to make it easy to add, edit, and remove links, customize the design, and run tests.
+The Bio is built with React for dynamic UI components, Tailwind CSS for styling, and Jest for testing. This repository is organized to make it easy to add, edit, and remove links, customize the design, and run tests.
 
 ## Features
 
@@ -30,13 +30,13 @@ To get started with this Link Hub template, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/wesleybertipaglia/linkshub
+    git clone https://github.com/wesleybertipaglia/bio
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd link-hub
+    cd bio
     ```
 
 3. Install dependencies:
@@ -66,7 +66,7 @@ Feel free to customize the React components, Tailwind CSS styles, and content to
 The basic folder structure of this template is as follows:
 
 ```plaintext
-/link-hub
+/bio
 |-- /public
 |-- /src
 |   |-- /components
