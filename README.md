@@ -1,95 +1,83 @@
-# Bio Website
+# 🌲 Bio
+Bio is a simple website that allows you to create and manage a list of links. It’s inspired in Linktree and some popular Instagram bio websites. 
 
-Welcome to Bio repository! This repository contains the source code, React components, styles using Tailwind CSS, and tests using Jest. Feel free to explore, contribute, and use this template for your own bio website.
+![screenshot](/docs/screenshot.png)
 
-## Table of Contents
+### Features:
 
-- [Introduction](#introduction)
-- [Features](#features)
+- ✅ Easy to use and customize
+- ✅ Simple, clean and responsive design
+- ✅ Sections for categorized links
+- ✅ Sharable link to your Bio page
+- ✅ Dark mode
+- ✅ Tailwind CSS for quick and efficient styling
+- ✅ Jest for testing components
+- ✅ Easy to deploy
+
+## 📚 Table of Contents
 - [Getting Started](#getting-started)
-- [Customization](#customization)
-- [Folder Structure](#folder-structure)
-- [Testing](#testing)
-- [Contributing](#contributing)
+- [Commands](#-commands)
+- [Endpoints](#-endpoints)
+- [Tech Stack](#-tech-stack)
+- [License](#-license)
+- [Checklist](#-checklist)
 
-## Introduction
+To know more about the project structure, check the [structure.md](/docs/structure.md) file.
 
-The Bio is built with React for dynamic UI components, Tailwind CSS for styling, and Jest for testing. This repository is organized to make it easy to add, edit, and remove links, customize the design, and run tests.
-
-## Features
-
-- Responsive design for optimal viewing on different devices
-- Sections for categorized links
-- Tailwind CSS for quick and efficient styling
-- Jest for testing components
-
-## Getting Started
-
-To get started with this Link Hub template, follow these steps:
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/wesleybertipaglia/bio
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd bio
-    ```
-
-3. Install dependencies:
-
-    ```bash
-    npm install
-    ```
-
-4. Customize the content:
-
-    Update the `src/data/links.js` file to include your personal links and categories.
-
-5. Start the development server:
-
-    ```bash
-    npm start
-    ```
-
-    Open your browser and go to [http://localhost:3000](http://localhost:3000) to see your Link Hub in action.
-
-## Customization
-
-Feel free to customize the React components, Tailwind CSS styles, and content to match your preferences. Explore the `src` directory to make changes to the structure and appearance of your Link Hub.
-
-## Folder Structure
-
-The basic folder structure of this template is as follows:
-
-```plaintext
-/bio
-|-- /public
-|-- /src
-|   |-- /components
-|   |-- /data
-|   |   |-- links.js
-|   |-- /styles
-|   |   |-- tailwind.css
-|   |-- /tests
-|-- .gitignore
-|-- package.json
-|-- README.md
-|-- ...
-```
-
-## Testing
-Testing for this Link Hub is implemented using Jest. To run tests, use the following command:
+## 🤖 Getting Started
+1. Clone the repository
 
 ```bash
-npm test
+git clone https://github.com/wesleybertipaglia/bio.git
 ```
-This will execute the Jest test suite and provide feedback on component functionality.
 
-## Contributing
-If you encounter issues, have suggestions for improvements, or want to contribute, feel free to open an issue or submit a pull request. Contributions are always welcome!
+2. Install dependencies:
 
-Happy linking!
+```bash
+npm install
+```
+
+3. Customize the content:
+Update the `src/data/links.js` file to include your personal links and categories.
+
+4. Start the development server:
+```bash
+npm start
+```
+
+Open your browser and go to [http://localhost:3000](http://localhost:3000) to see your Link Hub in action.
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                    | Action                        |
+| :------------------------  | :---------------------------- |
+| `npm install`              | Install dependencies          |
+| `npm start`                | Start application             |
+| `npm build`                | Build application             |
+| `npm test`                 | Run tests                     |
+
+## 🧩 Tech Stack
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [React](https://reactjs.org/)
+- [Jest](https://jestjs.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## ☑️ Cheklist
+
+The following checklist can be used to track the project progress:
+
+- [x] Authentication
+- [x] Authorization
+- [x] Documentation
+- [x] Tests
+- [x] CI/CD
+- [x] Deploy
+- [x] Monitoring
+
+## 📜 License
+
+This repository is licensed under the [MIT]. See the [LICENSE](LICENSE) file for details.
+
+[Back to top](#bio)
