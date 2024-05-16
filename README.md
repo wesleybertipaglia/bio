@@ -45,7 +45,7 @@ Update the `src/data/links.js` file to include your personal links and categorie
 npm start
 ```
 
-Open your browser and go to [http://localhost:3000](http://localhost:3000) to see your Link Hub in action.
+> 🚀 Open your browser and go to [http://localhost:3000](http://localhost:3000) to see the website in action.
 
 ## 🧞 Commands
 
